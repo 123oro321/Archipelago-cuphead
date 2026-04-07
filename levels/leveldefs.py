@@ -325,7 +325,7 @@ level_rungun: dict[str, LevelData] = {
 }
 level_mausoleum: dict[str, LevelData] = {
     LocationNames.level_mausoleum_i: LevelData(
-        LocationNames.world_inkwell_1, [LocationNames.loc_level_mausoleum_i], lr.lrule_parry
+        LocationNames.world_inkwell_1, [LocationNames.loc_level_mausoleum_i], lr.lrule_parry_or_psugar
     ),
     LocationNames.level_mausoleum_ii: LevelData(
         LocationNames.world_inkwell_2, [LocationNames.loc_level_mausoleum_ii], lr.lrule_parry
