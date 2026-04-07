@@ -51,7 +51,7 @@ level_loc_rules_rungun: list[LevelLocRuleData] = [
     LevelLocRuleData(LocationNames.level_rungun_forest, lr.lrule_dash, {
         LocationNames.loc_level_rungun_forest_coin1: LRule(lr.lrule_none),
         LocationNames.loc_level_rungun_forest_coin2: LRule(lr.lrule_none),
-        LocationNames.loc_level_rungun_forest_coin3: LRule(lr.lrule_parry),
+        LocationNames.loc_level_rungun_forest_coin3: LRule(lr.lrule_parry_or_psugar),
         LocationNames.loc_level_rungun_forest_coin4: LRule(lr.lrule_dash),
         LocationNames.loc_level_rungun_forest_coin5: LRule(lr.lrule_dash),
         LocationNames.loc_level_rungun_forest_agrade: LRule(
@@ -63,7 +63,7 @@ level_loc_rules_rungun: list[LevelLocRuleData] = [
         ),
     }),
     LevelLocRuleData(LocationNames.level_rungun_tree, lr.lrule_dash, {
-        LocationNames.loc_level_rungun_tree_coin1: LRule(lr.lrule_parry),
+        LocationNames.loc_level_rungun_tree_coin1: LRule(lr.lrule_dash_parry_or_psugar),
         LocationNames.loc_level_rungun_tree_coin2: LRule(lr.lrule_none),
         LocationNames.loc_level_rungun_tree_coin3: LRule(lr.lrule_none),
         LocationNames.loc_level_rungun_tree_coin4: LRule(lr.lrule_dash),
