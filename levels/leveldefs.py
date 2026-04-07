@@ -328,7 +328,7 @@ level_mausoleum: dict[str, LevelData] = {
         LocationNames.world_inkwell_1, [LocationNames.loc_level_mausoleum_i], lr.lrule_parry_or_psugar
     ),
     LocationNames.level_mausoleum_ii: LevelData(
-        LocationNames.world_inkwell_2, [LocationNames.loc_level_mausoleum_ii], lr.lrule_parry
+        LocationNames.world_inkwell_2, [LocationNames.loc_level_mausoleum_ii], lr.lrule_parry_or_psugar
     ),
     LocationNames.level_mausoleum_iii: LevelData(
         LocationNames.world_inkwell_3, [LocationNames.loc_level_mausoleum_iii], lr.lrule_parry
